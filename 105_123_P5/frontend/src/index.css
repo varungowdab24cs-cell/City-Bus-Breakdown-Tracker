@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Arial Narrow", Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #f8fafc;
+  background: #050505;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 80% -20%, rgba(239, 28, 36, 0.1), transparent 34rem),
+    #050505;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Reference-inspired black, white, and signal-red visual system. */
+.bg-\[\#07111f\] {
+  background-color: #050505 !important;
+}
+
+.bg-\[\#091525\],
+.bg-slate-900 {
+  background-color: #0b0b0b !important;
+}
+
+.bg-slate-950 {
+  background-color: #050505 !important;
+}
+
+.border-slate-800 {
+  border-color: #292929 !important;
+}
+
+.border-slate-700 {
+  border-color: #414141 !important;
+}
+
+.bg-cyan-300 {
+  background-color: #ed1c24 !important;
+}
+
+.text-cyan-300 {
+  color: #ff3b42 !important;
+}
+
+.border-cyan-300 {
+  border-color: #ed1c24 !important;
+}
+
+.hover\:border-cyan-300:hover {
+  border-color: #ed1c24 !important;
+}
+
+.focus\:border-cyan-300:focus {
+  border-color: #ed1c24 !important;
+}
+
+.bg-cyan-400\/10 {
+  background-color: rgba(237, 28, 36, 0.12) !important;
+}
+
+.text-slate-400 {
+  color: #a4a4a4 !important;
+}
+
+.uppercase {
+  letter-spacing: 0.12em;
+}
